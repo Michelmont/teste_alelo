@@ -1,0 +1,12 @@
+
+.container{
+  @include flex-container(column, flex-start, flex-start);
+  align-self: center;
+  width: 90%;
+  height: 90%;
+  background-color: $neutral09;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-sizing: border-box;
+  padding: $large_space;
+}

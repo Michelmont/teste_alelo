@@ -1,0 +1,27 @@
+::ng-deep .mat-form-field {
+  width: 70%;
+  font-family: $font;
+  .mat-input-element {
+      color: $neutral04;
+  }
+  .mat-form-field-label {
+      color:  $neutral04;
+      font-size: $normal_text;
+  }
+  .mat-form-field-underline {
+      background-color:  $neutral04;;
+  }
+}
+
+::ng-deep .mat-form-field.mat-focused {
+  .mat-form-field-label {
+      color: $verde-claro;
+  }
+  .mat-form-field-ripple {
+      background-color: $verde-claro;
+  }
+  .mat-form-field-required-marker {
+      color: $verde-claro;
+  }
+
+}
